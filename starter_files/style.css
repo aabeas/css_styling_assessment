@@ -18,50 +18,110 @@ html {
   margin-bottom: 5px;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: helvetica;
+}
+
+* {
+  font-family: "helvetica", arial, sans-serif;
 }
 
 #logo {
-  padding: 10px;
+  padding: 25px 0px;
 }
 
 #site_header {
   background-color: #ff8523;
-  height: 150px;
+  height: 95px;
+  padding: 10px;
 }
 
-a {
-  font-size: 20px;
-  padding:10px;
-  border: 1px solid #eee;
-  border-radius: 2px;
-}
-
-.main_navigation {
-  display: inline-block;
-  width: 15em;
-  height: 10px;
-  margin: 2px;
-  padding: 2px;
+.main_navigation a {
+  font-size: 12px;
+  padding: 5px 20px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 body {
   display: block;
-  width: 800px;
+  width: 100%;
   border: 2px solid #ffd24a;
   border-radius: 4px;
 }
 
 #page_content {
-  background-color: #eee;
+  background-color: white;
   padding: 10px;
 }
+
+h2 {
+    font-size: 21;
+    color: #1fabe5;
+}
+
+h3 {
+    font-size: 14;
+    color: #1fabe5;
+}
+
+section {
+  padding: 15px;
+}
+
+section p {
+  font-size: 12px;
+}
+
+section:nth-child(2) {
+  border-top: 2px solid #dddddd;
+  border-bottom: 2px solid #dddddd;
+  font-size: 12px:
+}
+
+table {
+  width: 100%;
+  font-size: 12;
+  border-spacing: inherit;
+  text-align: left;
+  border: 2px solid #046c97;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: #1fabe5;
+  color: white;
+}
+
+td {
+  border: 2px solid #046c97;
+}
+
 .name {
 
 }
+
 .city_container {
-
+  padding: 5px 20px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 4px;
 }
-.submit_container {
 
+.submit_container #submit_button{
+  background-color: #1fabe5;
+  color: white;
+  font-size: 12px;
+  padding: 5px 20px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
